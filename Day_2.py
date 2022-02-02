@@ -37,6 +37,7 @@ print(f"You have {days} days, or {weeks} weeks, or {months} months left.")
 
 print("Welcome to tip calculator!")
 bill = input("What was the total bill?")
+bill = input("What was the total bill? $")
 amount_of_tip = input(
     "How much tip would you like to give? 10, 12 or 15% ? - enter a number")
 how_many_people = input("How many people to split the bill?")
