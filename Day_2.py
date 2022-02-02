@@ -36,15 +36,12 @@ print(f"You have {days} days, or {weeks} weeks, or {months} months left.")
 # Tip calculator - 2 decimal places
 
 print("Welcome to tip calculator!")
-bill = input("What was the total bill?")
 bill = input("What was the total bill? $")
 amount_of_tip = input(
-    "How much tip would you like to give? 10, 12 or 15% ? - enter a number")
     "How much tip would you like to give? 10, 12 or 15% ? -enter a number")
 how_many_people = input("How many people to split the bill?")
 
 total_bill = float(bill)
-total_bill = int(bill)
 percent_num = int(amount_of_tip)
 tip = (percent_num/100) * total_bill
 people = int(how_many_people)
